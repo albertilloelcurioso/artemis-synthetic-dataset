@@ -1,0 +1,51 @@
+component,incorrect,correct
+summary,"From a user's profile screen, test sending them a direct message.",Message - User Profile Screen - Send a direct message to a user
+summary,The user should be able to download an entire album for offline listening from the album page.,Offline Playback - Download an entire album for offline playback
+summary,Test purchasing the yearly premium subscription from the subscription page.,Purchase - Subscription Page - Purchase a yearly premium subscription
+summary,"When viewing an article, check if you can share it using another messaging app.",Sharing - Share an article via a third-party messaging app
+summary,Test if a user can log in with their fingerprint after enabling it in settings.,Login - Home Screen - Authenticate user with fingerprint biometrics
+summary,"When creating an event, try to add someone from the phone's contact list as an attendee.",Integration - Add an attendee to an event from the device's contacts
+summary,"After you search for flights, see if you can filter the results to only show a specific airline.",Search - Results Screen - Filter flight results by a specific airline
+summary,"While a video is playing, try changing the playback speed to be twice as fast.",Player - Video Screen - Change video playback speed to 2x
+summary,Go to the main system settings for the app and turn off all its notifications.,Notifications - System Settings - Disable all notifications for the application
+summary,"In the document editor, check if you can insert a picture from the phone's gallery.",Editor - Insert an image from the device gallery
+summary,See if you can view the high score leaderboard from the main menu in the game.,Gaming - Main Menu - View the leaderboard for high scores
+summary,"In the banking app's transfer section, try to send money to someone you've saved before.",Transactions - Transfer Section - Initiate a fund transfer to a saved beneficiary
+summary,"On a podcast's page, test adding one of the episodes to a playlist you made.",Playlist - Podcast Page - Add a specific episode to a custom playlist
+summary,"From the smart home dashboard, check if you can change the color of a lightbulb that's connected.",Device Control - Smart Home Dashboard - Change the color of a connected smart light
+summary,Open a deep link in a browser and see if it opens the correct product page in the app.,Deep Linking - External Browser - Open a specific product page within the app
+summary,"After putting the widget on the home screen, see if you can refresh its content manually.",Widget - Home Screen - Refresh the widget content manually
+summary,"In the comments section of a post, try replying to what another user wrote.",Social - Comments Section - Reply to another user's comment
+summary,"After setting the phone's font to the largest size, check to see if the app's layout is broken.",Accessibility - Verify UI layout adapts to large system font size
+summary,"When ordering food, try to schedule the delivery for a later time.",Checkout - Order Screen - Schedule a delivery for a future time slot
+summary,"Using only voice commands, start navigation to a specific place from the map screen.",Voice Input - Map Screen - Start navigation to a destination using a voice command
+summary,"In the file manager, select a few files and try to compress them into a ZIP file.",File Management - Compress selected files into a single ZIP archive
+summary,"While reading a book in the e-reader app, try to add a bookmark to the page you are on.",Reading - e-reader App - Create a bookmark on the current page
+summary,The user should be able to start the process of deactivating their account from the account settings page.,Account Deactivation - Account Settings Page - Initiate the account deactivation process
+summary,"If you are logged into multiple accounts, check if you can switch between them from the profile menu.",Multiple Accounts - Profile Menu - Switch to a different user account
+summary,"In the photo editor, load a picture and test applying the black and white filter.","Editing Tools - Photo Editor - Apply a ""black and white"" filter to the image"
+summary,Go to the data usage settings and set the app to only auto-download media when on Wi-Fi.,Data Usage - Data Usage Settings - Restrict media auto-download to Wi-Fi only
+summary,"From the appearance settings, switch the app's theme from the light mode to the dark mode.",Appearance - Appearance Settings - Switch the application theme from light to dark mode
+summary,"If I make a change on my phone, it should show up on my tablet when using the same account.",Data Sync - Verify a change made on the primary device reflects on the secondary device
+summary,Measure how smoothly the app scrolls when you have a very long list of items on the screen.,Performance - Measure the scroll performance with a long list of items
+summary,"When you turn the phone sideways into landscape mode, check if all the UI elements look right.",UI/UX - Verify all UI elements render correctly in landscape mode
+summary,"On a screen with an image, use the pinch gesture to see if it zooms in.",Gestures - Image View - Zoom into an image using a pinch-to-zoom gesture
+summary,Test starting a live chat conversation with a support agent from the help section.,Support - Help section - Initiate a chat session with a support agent
+summary,"After adding an item to your favorites, try to remove it from the favorites list.",Favorites List - Remove an item from the favorites list
+summary,"If the app is opened without an internet connection, it should show a cached version of the main screen.",Offline Mode - Main Screen - Verify the app displays a cached version of the main screen
+summary,"When the in-app survey pops up, test submitting a rating and some feedback.",Feedback - Submit a rating and feedback through the survey
+summary,"From the ""Refer a Friend"" screen, check if you can generate and copy your referral link.","Social - ""Refer a Friend"" Screen - Generate and copy a unique referral link"
+summary,Test the entire login flow when authenticating using a Facebook account.,Login - Facebook - Authenticate user via third-party Facebook login
+summary,"When a video ad is playing in the app, see if you can mute its sound.",Ads - Video Player - Mute the audio of an in-app video advertisement
+summary,"From the security settings, try to enable two-factor authentication for the account.",Settings - Security Settings - Enable two-factor authentication (2FA) for the account
+summary,"If a screen has a web view, check if external links open inside it correctly.",Web View - Verify an external link opens correctly within the app's web view
+summary,"After doing something that earns points, check the profile to see if the loyalty balance updated.",Gamification - Profile - Check for updated points in the user's loyalty rewards balance
+summary,Test saving an app event to the main calendar on the device.,Integration - Calendar - Save an event from the app directly to the device's calendar
+summary,"When the interactive tutorial appears, check if the user can skip it.",Interactive Tutorial - Skip the interactive feature tutorial
+summary,"For an account that has an active subscription, go to the management page and try to cancel it.",Subscription - Subscription Management Page - Cancel an active monthly subscription
+summary,"From a post made by another user, test reporting it for breaking the rules.",Social - Report a user's post for violating community guidelines
+summary,"Put the app in the background for a few minutes, then open it again to see if you are still on the same screen.",App State - Verify screen behavior after 2 minutes on the background mode
+summary,"On a form, test pasting text from the phone's clipboard into one of the fields.",Input - Form - Paste text into a text input field from the clipboard
+summary,Connect a Bluetooth speaker and check if the app's audio plays through it.,Bluetooth - Media Player - Verify audio output routes to the connected Bluetooth device
+summary,"When looking at the map, test the button that centers the view on your current location.",Map View - Center the map on the user's current GPS location
+summary,"In the ""About"" section of the app, verify that the correct version number is listed.",Validation - About Section - Verify if the app version number is displayed correctly

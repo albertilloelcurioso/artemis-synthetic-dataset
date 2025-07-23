@@ -1,0 +1,104 @@
+component,incorrect,correct
+initial_setup,"1. Get the NordVPN application installed on the device.
+2. The user qa.vpn.user@test.com should already be logged in.
+3. A connection to a server located in Canada is active.","1. Install the ""NordVPN"" app.
+2. Log in with the account ""qa.vpn.user@test.com"".
+3. Connect to a server in ""Canada""."
+initial_setup,"Go into the hotspot settings on the phone.
+The Wi-Fi hotspot needs to be on, and its name should be set to ""QA_Android_Hotspot"".","1. Enable ""Wi-Fi hotspot"".
+2. Set the hotspot name to ""QA_Android_Hotspot""."
+initial_setup,"1. For the Slack app, in its notification settings, the specific channel for Direct Messages must be toggled off.","1. Disable the ""Direct Messages"" notification channel of the Slack app."
+initial_setup,"A Logitech K380 keyboard is connected via Bluetooth, the layout is US English, and a new document is open in Google Docs.","1. Connect a ""Logitech K380"" Bluetooth keyboard.
+2. Set the keyboard layout to ""English (US)"".
+3. Open the ""Google Docs"" app.
+4. Create a new document."
+initial_setup,"1. Focus mode is on, and it's set up to block both the Gmail and Instagram apps.","1. Enable ""Focus mode"".
+2. Add the ""Gmail"" app to the block list.
+3. Add the ""Instagram"" app to the block list."
+initial_setup,"1. The app pinning feature is turned on, and the Calculator app is currently pinned to the screen.","1. Enable ""App pinning"".
+2. Launch the ""Calculator"" app.
+3. Pin the ""Calculator"" app."
+initial_setup,"1. The camera is in Pro mode, with the ISO set at 800 and the shutter at 1/1000s.","1. Launch the ""Google Camera"" app.
+2. Switch to ""Pro"" mode.
+3. Set ISO to ""800"".
+4. Set shutter speed to ""1/1000s""."
+initial_setup,The user's medical info in the safety settings shows an allergy to Penicillin.,"1. Add ""Penicillin"" as an allergy."
+initial_setup,"Data Saver is on, but WhatsApp has been given an exception for unrestricted data usage.","1. Enable ""Data Saver"".
+2. Select ""Unrestricted data"".
+3. Enable the toggle for the ""WhatsApp"" app."
+initial_setup,The YouTube app should be in a paused state.,"1. Long-press the ""YouTube"" app icon on the home screen.
+2. Select ""Pause app""."
+initial_setup,"1. The Google Maps app's language has been individually set to French, separate from the system language.","1. Set the language for the ""Google Maps"" app to ""French""."
+initial_setup,"1. After connecting a USB-C mouse, go and adjust the pointer speed all the way to the fastest setting.","1. Connect a USB-C mouse to the device.
+2. Set ""Pointer speed"" to the maximum value."
+initial_setup,1. The accessibility option for high contrast text should be toggled on.,"1. Enable ""High contrast text""."
+initial_setup,"1. In the default app settings, check that no digital assistant app is selected.","1. Set the default assistant to ""None"" on ""Digital assistant"" app"
+initial_setup,"Inside developer options, the setting for tracing debuggable applications is on.","1. Enable ""Developer options"".
+2. Enable ""Trace debuggable applications""."
+initial_setup,The developer option for limiting background processes should be set to none.,"1. Enable ""Developer options"".
+2. Set the limit to ""No background processes""."
+initial_setup,"The global microphone access toggle is off, and the user is in the camera app on the video screen.","1. Open the Quick Settings panel.
+2. Disable ""Mic access"".
+3. Launch the ""Google Camera"" app.
+4. Switch to ""Video"" mode."
+initial_setup,"A Spotify playlist called ""QA Test Playlist"" exists and contains the song ""Blinding Lights"" by The Weeknd.","1. Launch the ""Spotify"" app.
+2. Create a new playlist named ""QA Test Playlist"".
+3. Add the song ""Blinding Lights"" by The Weeknd to the playlist."
+initial_setup,1. The daily step goal in the Google Fit profile is set to 5000 steps.,"1. Launch the ""Google Fit"" app.
+2. Set the daily ""Steps"" goal to ""5000""."
+initial_setup,1. Nearby Share is configured so that the device is only visible to contacts.,"1. Set ""Device visibility"" to ""Contacts""."
+initial_setup,The shortcut to trigger screen magnification from the accessibility menu needs to be active.,"1. Enable the ""Magnification shortcut""."
+initial_setup,"The Facebook app has had its battery usage setting changed to ""Restricted"".","1. Set usage control to ""Restricted"" for the ""Facebook"" app."
+initial_setup,"1. The Sound Amplifier app is installed and running with headphones plugged in, and its noise reduction feature is on.","1. Install the ""Sound Amplifier"" app from the Google Play Store.
+2. Connect wired headphones.
+3. Launch the ""Sound Amplifier"" app.
+4. Enable noise reduction."
+initial_setup,"The ""Screen attention"" feature, which keeps the screen on while you're looking at it, is enabled.","1. Enable ""Screen attention"" feature."
+initial_setup,1. All system animations have been turned off via the accessibility setting.,"1. Enable ""Remove animations"" via the accessibility setting."
+initial_setup,"1. In the emergency alert settings, the toggle for AMBER alerts should be off.","1. Disable ""Amber alerts""."
+initial_setup,"1. From the Games tab in the Google TV app, run the Asphalt 8 game.","1. Launch the ""Google TV"" app.
+2. Launch the ""Asphalt 8"" game."
+initial_setup,"1. The word ""QATestCo"" has been added to the phone's personal dictionary so it won't be autocorrected.","1. Open ""Personal dictionary"".
+2. Add the word ""QATestCo""."
+initial_setup,1. The developer option that displays the current screen refresh rate as an overlay is on.,"1. Enable ""Developer options"".
+2. Enable ""Show refresh rate""."
+initial_setup,"1. After downloading app-release.apk, you need to grant install permissions to the Files app and then open the APK from the Downloads folder.","1. Download the ""app-release.apk"" file.
+2. Grant all permissions to the ""Files by Google"" app.
+3. Install the ""app-release.apk"" file."
+initial_setup,"A contact label named ""QA Team"" exists and has the contact ""John Doe"" in it.","1. Launch the ""Contacts"" app.
+2. Create a new label named ""QA Team"".
+3. Add the contact ""John Doe"" to the ""QA Team"" label."
+initial_setup,"Inside WhatsApp's notification settings, the sound for messages is set to the one called ""Triton"".","1. Set ""Message notifications"" sound to ""Triton"" on the ""WhatsApp"" app."
+initial_setup,The battery percentage should be visible in the status bar.,"1. Enable ""Battery percentage""."
+initial_setup,"A radio station based on the artist ""Daft Punk"" is playing in the YouTube Music app.","1. Launch the ""YouTube Music"" app.
+2. Select ""Start radio"" from the ""Daft Punk"" page."
+initial_setup,Go into Gboard's privacy settings and clear out all the learned words and data.,"1. Select ""Delete learned words and data"" option on ""Gboard"" settings."
+initial_setup,The feature that automatically adjusts sound based on your environment is turned off.,"1. Disable ""Adaptive Sound""."
+initial_setup,"1. The message thread with ""Jane Smith"" has been muted so no notifications will appear.","1. Launch the ""Messages"" app.
+2. Long-press the conversation with ""Jane Smith"".
+3. Tap the ""Mute"" icon."
+initial_setup,1. The top email in the Gmail inbox has been archived.,"1. Launch the ""Gmail"" app.
+2. Swipe left on the first email in the inbox."
+initial_setup,"The backup quality for Google Photos is set to ""Storage saver"" instead of ""Original quality"".","1. Launch the ""Google Photos"" app.
+2. Set ""Upload size"" to ""Storage saver""."
+initial_setup,Reading mode should be active from the quick settings.,"1. Open the Quick Settings panel.
+2. Select the ""Reading mode"" tile."
+initial_setup,Firefox is installed and has been set as the default browser app.,"1. Install the ""Firefox"" app.
+2. Set the ""Browser app"" to ""Firefox""."
+initial_setup,The Live Transcribe accessibility service is running.,"1. Enable ""Live Transcribe"" accessibility service."
+initial_setup,1. The default launcher has been switched to Nova Launcher.,"1. Install the ""Nova Launcher"" app.
+2. Set the ""Home app"" to ""Nova Launcher""."
+initial_setup,1. The developer option to simulate a color space is set to monochromacy (black and white).,"1. Enable ""Developer options"".
+2. Launch ""Developer options"".
+3. Set the mode to ""Monochromacy""."
+initial_setup,1. The developer setting that throttles Wi-Fi scanning to save battery is on.,"1. Enable ""Developer options"".
+3. Enable ""Wi-Fi scan throttling""."
+initial_setup,"A list called ""Test Locations"" exists in Google Maps' saved places and contains the Eiffel Tower.","1. Launch the ""Google Maps"" app.
+2. Create a new list named ""Test Locations"".
+3. Add ""Eiffel Tower"" to the list."
+initial_setup,1. A new Google Meet call has been started and the link was shared with qa.test.user@gmail.com.,"1. Launch the ""Google Meet"" app.
+2. Select ""Create a new meeting"" option.
+3. Share the meeting link with ""qa.test.user@gmail.com""."
+initial_setup,1. The audio balance in accessibility settings is panned all the way to the right speaker.,"1. Move the ""Audio balance"" slider completely to the right in ""accessibility"" settings."
+initial_setup,1. The Digital Wellbeing app has been denied permission to access usage data.,"1. Disable usage access for the ""Digital Wellbeing"" app."
+initial_setup,Go to the Ads section of the privacy settings and reset the advertising ID.,"1. Select ""Reset advertising ID"" on Ads section of the privacy settings."
