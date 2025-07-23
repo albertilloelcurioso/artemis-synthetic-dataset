@@ -3,8 +3,8 @@ Agent-based Rewriting and Test Case Management with Intelligent Supervision
 
 This repository contains synthetic data generated to evaluate the generalization capability of the ARTeMIS system. The data includes:
 
-- `synthetic_summary_test.csv `: Generated test steps (valid and invalid)
-- `synthetic_initial_setup_test`: Generated test steps (valid and invalid)
+- `synthetic_summary_test.csv `: Generated Summary test (valid and invalid)
+- `synthetic_initial_setup_test`: Generated Initial_Setup test (valid and invalid)
 - `synthetic_test_steps.csv`: Generated test steps (valid and invalid)
 - `prompts_to_generate_synthetic_test_steps.pdf`: Prompt guidelines used for data generation
 - `prompts_to_generate_synthetic_summary_and_initial_setup`: Prompt guidelines used for data generation 
