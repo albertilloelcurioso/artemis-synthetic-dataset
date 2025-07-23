@@ -1,7 +1,5 @@
-# artemis-synthetic-dataset
-Agent-based Rewriting and Test Case Management with Intelligent Supervision
-
 # Synthetic Test Case Dataset for ARTeMIS
+Agent-based Rewriting and Test Case Management with Intelligent Supervision
 
 This repository contains synthetic data generated to evaluate the generalization capability of the ARTeMIS system. The data includes:
 
