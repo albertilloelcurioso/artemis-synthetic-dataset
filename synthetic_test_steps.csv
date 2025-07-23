@@ -1,0 +1,823 @@
+category,incorrect_step,correct_step
+parameterized,Put john.doe@example.com in the email box.,"Enter text ""john.doe@example.com"" into the ""Email Address"" field."
+parameterized,Type the password P@ssw0rd123!.,"Enter password ""P@ssw0rd123!"" into the ""Password"" field."
+parameterized,Press login.,"Tap the ""Login"" button."
+parameterized,Look for a Vintage Leather Jacket.,"Search for the item ""Vintage Leather Jacket"" in the search bar."
+parameterized,"Should see Welcome, John!","Verify that the text ""Welcome, John!"" is displayed on the home screen."
+parameterized,Go to settings.,"Navigate to the ""Settings"" screen."
+parameterized,Choose Notifications.,"Select the option ""Notifications"" from the settings menu."
+parameterized,Turn on push notifications toggle.,"Enable the toggle switch for ""Push Notifications""."
+parameterized,Add Smartwatch GT-3 to cart.,"Add the product ""Smartwatch GT-3"" to the shopping cart."
+parameterized,Use discount code SUMMER25.,"Apply the discount code ""SUMMER25"" at checkout."
+parameterized,"The delivery address is 123 Main Street, Anytown, USA.","Set the delivery address to ""123 Main Street, Anytown, USA""."
+parameterized,Pay with the credit card 4242.,"Select the payment method ""Credit Card ending in 4242""."
+parameterized,Check for invalid email error with john.doe.,"Verify the error message ""Invalid email format"" is displayed for input ""john.doe""."
+parameterized,"Connect to Public-WiFi, password is guest1234.","Connect to the Wi-Fi network with SSID ""Public-WiFi"" and password ""guest1234""."
+parameterized,"Bluetooth on, pair MyCarAudio.","Turn on ""Bluetooth"" and pair with the device ""MyCarAudio""."
+parameterized,Make an alarm for 7:30 AM called Morning Meeting.,"Set a one-time alarm for ""7:30 AM"" with the label ""Morning Meeting""."
+parameterized,"New contact: Jane Smith, 555-0102.","Create a new contact with the name ""Jane Smith"" and phone number ""555-0102""."
+parameterized,"Text Jane Smith ""See you at 5 PM"".","Send an SMS message with the content ""See you at 5 PM"" to the recipient ""Jane Smith""."
+parameterized,Go to google.com.,"Open the browser and navigate to the URL ""https://www.google.com""."
+parameterized,Search best android phones 2024.,"In the browser, search for ""best android phones 2024""."
+parameterized,Make the phone Spanish.,"Change the system language to ""Spanish (Español)""."
+parameterized,App should be in Spanish now.,"Verify the app's UI elements are now displayed in ""Spanish""."
+parameterized,Brightness at 75 percent.,"Set the screen brightness to ""75%"""
+parameterized,"Start the ""Android 14 Features Overview"" video.","Play the video titled ""Android 14 Features Overview""."
+parameterized,Pause video at 1 minute 23 seconds.,"Pause the video at timestamp ""01:23""."
+parameterized,Take a screenshot and see if it saved.,"Capture a screenshot and verify it is saved in the ""Screenshots"" album."
+parameterized,Filter for Google products between 500 and 800 dollars.,"Filter the product list by brand ""Google"" and price range ""$500-$800""."
+parameterized,Sort by best rating.,"Sort the search results by ""Highest Rating""."
+parameterized,Open the clock app.,"From the home screen, open the ""Clock"" application."
+parameterized,Add Tokyo to the world clock.,"Switch to the ""World Clock"" tab and add the city ""Tokyo""."
+parameterized,"What's the weather in New York, NY?","Check the weather for the location ""New York, NY""."
+parameterized,Allow camera access.,"Grant the ""Camera"" permission when prompted by the application."
+parameterized,Don't allow location.,"Deny the ""Location"" permission when prompted."
+parameterized,Check if name changed to John D.,"Verify the user profile name is updated to ""John D."" after editing."
+parameterized,Upload profile_pic.jpg.,"Upload a profile picture from the gallery named ""profile_pic.jpg""."
+parameterized,DOB is 1990-05-15.,"Enter the date of birth ""1990-05-15"" in the user profile."
+parameterized,Hold down the home button.,"Long-press the ""Home"" button to activate the assistant."
+parameterized,"Say ""What's on my calendar for today?"".","Use the voice command ""What's on my calendar for today?"""
+parameterized,Clear Chrome's cache.,"Clear the application cache for the ""Chrome"" browser."
+parameterized,Uninstall com.example.testapp.,"Uninstall the application with package name ""com.example.testapp""."
+parameterized,Install the app-release-v1.2.apk.,"Install the application from the APK file ""app-release-v1.2.apk""."
+parameterized,"Email support@example.com about ""Feedback on new feature"".","In the email client, compose a new email to ""support@example.com"" with the subject ""Feedback on new feature""."
+parameterized,Add attachment logcat_report.txt.,"Attach the file ""logcat_report.txt"" to the email."
+parameterized,Switch to dark mode.,"Change the app theme from ""Light"" to ""Dark""."
+parameterized,See if background is #121212.,"Verify the background color of the main screen changes to ""#121212""."
+parameterized,Open the Gmail notification.,"Pull down the notification shade and expand the notification from ""Gmail""."
+parameterized,Hit reply in the notification.,"Tap the ""Reply"" action on the notification."
+parameterized,Fail login 5 times with pin 4321.,"Enter an incorrect PIN ""4321"" five times to trigger the account lockout."
+parameterized,Clear all app data in settings.,"Reset the app's data from the ""App Info"" screen in Android settings."
+parameterized,Kill the ExampleApp process.,"Force stop the application ""ExampleApp"" from the settings menu."
+conditional,"If the user is not logged in, verify the ""Login"" button is displayed on the home screen.","Ensure the user is logged out of the application.
+
+Navigate to the application's home screen.
+
+Verify the ""Login"" button is visible and enabled."
+conditional,"If the shopping cart is empty, ensure the ""Checkout"" button is disabled.","Navigate to the shopping cart.
+
+Ensure the cart contains zero items.
+
+Verify the ""Checkout"" button is visible but disabled."
+conditional,"Unless the user has granted camera permissions, the ""Scan QR Code"" feature should show a permission request dialog.","In the device's settings, revoke camera permissions for the app.
+
+Within the app, tap the ""Scan QR Code"" button.
+
+Verify a system dialog appears requesting camera permission."
+conditional,"As long as there is no internet connection, display an ""Offline Mode"" banner at the top of the app.","Disable all network connections (Wi-Fi and Mobile Data) on the device.
+
+Launch the application.
+
+Verify a banner with the text ""Offline Mode"" or similar is displayed."
+conditional,"On the condition that a user enters an invalid email format, show a ""Please enter a valid email"" error message.","Navigate to a login or registration form.
+
+Enter an invalid email (e.g., ""test@domain"").
+
+Tap the ""Submit"" or ""Continue"" button.
+
+Verify an error message ""Please enter a valid email"" is displayed beneath the email field."
+conditional,"If the user's account balance is zero, the ""Withdraw Funds"" option should be greyed out.","Log in with a user account that has a balance of zero.
+
+Navigate to the ""Wallet"" or ""Account Balance"" screen.
+
+Verify the ""Withdraw Funds"" option is visible but greyed out/disabled."
+conditional,"When a user tries to upload a file larger than 25MB, present an alert stating the file size limit has been exceeded.","Navigate to a feature that allows file uploads.
+
+Attempt to upload a file with a size greater than 25MB.
+
+Verify an alert or error message appears stating the file size limit has been exceeded."
+conditional,"If the device's location service is turned off, prompt the user to enable it when they access the ""Nearby Places"" feature.","Turn off location services in the device's main settings.
+
+In the app, navigate to the ""Nearby Places"" feature.
+
+Verify a prompt appears asking the user to enable location services."
+conditional,"Unless an item is marked as a ""favorite,"" the heart icon next to it should be hollow.","Navigate to a list of items (e.g., products, articles).
+
+Identify an item that has not been added to favorites.
+
+Verify the heart icon next to the item is hollow or not filled in."
+conditional,"As long as the user has not completed their profile, show a ""Profile Incomplete"" notification in the settings menu.","Log in with a user account that has missing profile information (e.g., no profile picture or phone number).
+
+Navigate to the ""Settings"" or ""Profile"" screen.
+
+Verify a ""Profile Incomplete"" notification or progress bar is displayed."
+conditional,"If the search query returns no results, display a ""No results found"" message.","Navigate to the search bar.
+
+Enter a query that is guaranteed to have no results (e.g., ""asdfghjkl"").
+
+Execute the search.
+
+Verify a message like ""No results found"" is displayed on the screen."
+conditional,"On the condition that the user selects a future date for a booking, the ""Confirm"" button becomes active.","Navigate to a booking screen with a calendar.
+
+Verify the ""Confirm"" button is initially disabled.
+
+Select any date in the future.
+
+Verify the ""Confirm"" button is now enabled."
+conditional,"If dark mode is enabled in the device settings, the app's theme should automatically switch to dark.","Enable dark mode from the Android system settings.
+
+Launch the application.
+
+Verify the app's UI is using its dark theme."
+conditional,"When a user's subscription expires, restrict access to premium content and show a ""Renew Subscription"" prompt.","Log in with a user whose subscription has just expired.
+
+Attempt to access a piece of premium content.
+
+Verify access is blocked and a ""Renew Subscription"" prompt is displayed."
+conditional,"Unless the user agrees to the Terms and Conditions, the ""Register"" button should remain inactive.","Navigate to the registration screen.
+
+Fill out all required registration fields.
+
+Do not check the ""I agree to the Terms and Conditions"" checkbox.
+
+Verify the ""Register"" button is disabled."
+conditional,"If the password field has fewer than 8 characters, display the requirement ""Password must be at least 8 characters.""","Navigate to a ""Create Password"" screen.
+
+Enter a password with 1-7 characters.
+
+Move focus away from the password field.
+
+Verify a helper text ""Password must be at least 8 characters"" appears."
+conditional,"As long as a filter is applied to the product list, show the active filter tags at the top of the screen.","Navigate to a product list screen.
+
+Apply one or more filters (e.g., by brand, by color).
+
+Return to the product list.
+
+Verify the applied filters are displayed as tags at the top of the list."
+conditional,"If the user has items from multiple vendors in their cart, show a warning that ""Items will be shipped separately.""","Add an item from Vendor A to the cart.
+
+Add an item from Vendor B to the cart.
+
+Navigate to the shopping cart or checkout screen.
+
+Verify a warning message ""Items will be shipped separately"" is displayed."
+conditional,"On the condition that the app is launched for the first time, display the onboarding tutorial.","Clear app data or uninstall and reinstall the app to simulate a first launch.
+
+Launch the application.
+
+Verify the multi-screen onboarding tutorial is displayed."
+conditional,"If a user enters a correct OTP, automatically proceed to the next screen without requiring a button press.","Initiate a process that requires OTP verification.
+
+On the OTP entry screen, enter the final digit of the correct OTP.
+
+Verify the app automatically navigates to the next screen without any further user interaction."
+conditional,"When the device's battery is below 15%, the app should disable non-essential animations.","Use developer tools or other means to simulate a low battery state (e.g., < 15%).
+
+Perform an action in the app that normally triggers a non-essential animation.
+
+Verify the animation does not play and the state changes instantly."
+conditional,"Unless the user has saved a payment method, the ""Quick Pay"" option should not be visible.","Log in with a user who has no saved payment methods.
+
+Navigate to the checkout screen.
+
+Verify the ""Quick Pay"" or ""One-Click Buy"" option is not visible."
+conditional,"If the user tries to exit the app while a download is in progress, show a confirmation dialog asking ""Are you sure you want to cancel the download?""","Start a large file download within the app.
+
+While the download is in progress, press the system back button to exit.
+
+Verify a confirmation dialog appears asking ""Are you sure you want to cancel the download?"""
+conditional,"As long as the user is in ""Do Not Disturb"" mode, push notifications from the app should be silenced.","Enable ""Do Not Disturb"" mode on the device.
+
+Trigger an event that sends a push notification to the device.
+
+Verify the notification arrives in the notification shade but does not make a sound or vibration."
+conditional,"If the content is age-restricted, verify the user's age before allowing access.","Navigate to a piece of content marked as age-restricted.
+
+Tap to view the content.
+
+Verify an age-gate (date of birth entry) screen is displayed."
+conditional,"On the condition that a user enters a non-existent coupon code, display an ""Invalid coupon"" message.","Navigate to the checkout screen.
+
+Enter a random, non-existent coupon code (e.g., ""INVALID123"").
+
+Tap ""Apply."".
+
+Verify an ""Invalid coupon"" error message is displayed."
+conditional,"If the user has biometric authentication enabled, prompt for a fingerprint/face scan to log in.","In the app's settings, enable biometric login.
+
+Log out of the app.
+
+Relaunch the app.
+
+Verify the system's fingerprint or face scan prompt appears."
+conditional,"When a form with unsaved changes is about to be closed, ask the user if they want to ""Save Draft.""","Open a form (e.g., compose email, edit profile).
+
+Enter some text into a field.
+
+Tap the back button or close icon.
+
+Verify a dialog appears with options like ""Save Draft,"" ""Discard,"" and ""Cancel."""
+conditional,"Unless a shipping address is selected, the ""Proceed to Payment"" button is disabled.","Add an item to the cart and proceed to the shipping screen.
+
+Ensure no shipping address is selected by default.
+
+Verify the ""Proceed to Payment"" button is disabled."
+conditional,"If the user taps on a phone number within the app, it should open the device's default dialer.","Find a tappable phone number within the app's UI.
+
+Tap the phone number.
+
+Verify the device's default dialer app opens with the number pre-filled."
+conditional,"As long as ""Incognito Mode"" is active, search history should not be saved.","Enable the app's ""Incognito Mode."".
+
+Perform a search for ""Test Query 123."".
+
+Navigate away and then back to the search screen.
+
+Verify ""Test Query 123"" does not appear in the recent search history."
+conditional,"If the app updates in the background, show a non-intrusive notification upon completion.","Trigger a background data sync or update.
+
+Wait for the process to complete.
+
+Verify a low-priority notification appears, stating ""Content updated."""
+conditional,"On the condition that the user's free trial period has ended, display a paywall for premium features.","Log in with a user whose free trial has just ended.
+
+Attempt to use a premium feature.
+
+Verify a paywall screen is displayed, prompting the user to subscribe."
+conditional,"If the user attempts to add a duplicate item to a playlist, show a message ""This item is already in your playlist.""","Create a playlist and add a specific song to it.
+
+Find the same song again.
+
+Attempt to add it to the same playlist.
+
+Verify a toast or snackbar message appears stating ""This item is already in your playlist."""
+conditional,"When the device is rotated to landscape mode, the video player should automatically enter full-screen.","Start playing a video in portrait mode.
+
+Ensure auto-rotate is enabled on the device.
+
+Rotate the device to a landscape orientation.
+
+Verify the video player expands to fill the entire screen."
+conditional,"Unless all required fields in a form are filled, the ""Submit"" button remains disabled.","Navigate to a form with multiple required fields.
+
+Fill in all but one of the required fields.
+
+Verify the ""Submit"" button is disabled.
+
+Fill in the final required field.
+
+Verify the ""Submit"" button is now enabled."
+conditional,"If the user is on a metered data connection, ask for confirmation before downloading large files.","Disconnect from Wi-Fi and ensure the device is on a mobile data connection.
+
+Attempt to download a file marked as large (e.g., > 100MB).
+
+Verify a dialog appears warning about the large file size and asking for confirmation to proceed."
+conditional,"As long as a user is viewing a live stream, the device's screen should not automatically lock.","Set the device's screen timeout to a short duration (e.g., 30 seconds).
+
+Start watching a live stream in the app.
+
+Do not touch the screen for more than the timeout duration.
+
+Verify the screen remains on and does not lock."
+conditional,"If a user's session times out due to inactivity, they should be redirected to the login screen upon the next interaction.","Log in to the app.
+
+Leave the app idle for longer than the session timeout period (e.g., 15 minutes).
+
+Return to the app and attempt any action (e.g., tap a button).
+
+Verify the app navigates to the login screen."
+conditional,"On the condition that the user has enabled accessibility features, ensure all buttons and images have proper content descriptions.","Enable an accessibility service like TalkBack from the device settings.
+
+Navigate through the app.
+
+Focus on various buttons and images.
+
+Verify that TalkBack reads a clear and descriptive label for each element."
+conditional,"If the user enters a password that does not match the confirmation password, highlight both fields in red.","Navigate to a registration or ""change password"" screen.
+
+Enter ""Password123"" in the ""Password"" field.
+
+Enter ""Password456"" in the ""Confirm Password"" field.
+
+Move focus away from the fields.
+
+Verify both password fields are highlighted with a red border and an error message is shown."
+conditional,"When a new message arrives, update the unread message count badge on the app icon.","Ensure the app is closed or in the background.
+
+Trigger a new message to be sent to the user's account.
+
+Go to the device's home screen.
+
+Verify the app's icon displays a badge with the correct unread count."
+conditional,"Unless the user has explicitly muted a conversation, they should receive notifications for new messages in that thread.","Identify a conversation thread that is not muted.
+
+Have another user send a message to that thread.
+
+Verify a push notification for the new message is received."
+conditional,"If the app crashes, it should offer to send an error report upon the next launch.","Trigger a condition that is known to cause the app to crash.
+
+Verify the app closes unexpectedly.
+
+Relaunch the app.
+
+Verify a dialog appears asking to ""Send error report."""
+conditional,"As long as the user is within the geofence of a store, trigger a location-based notification.","Use a location spoofing tool to set the device's location to be inside a predefined geofence.
+
+Wait for the location update to be processed.
+
+Verify a location-based push notification is received."
+conditional,"If the user selects text in a notes app, the ""Copy,"" ""Cut,"" and ""Bold"" formatting options should appear.","Open a note within a text editor feature.
+
+Long-press on a word to select it.
+
+Verify a contextual menu appears containing ""Copy,"" ""Cut,"" and ""Bold"" options."
+conditional,"On the condition that a flight booking is confirmed, the ""Add to Calendar"" option should become available.","Complete the process of booking a flight.
+
+Navigate to the booking confirmation screen.
+
+Verify an ""Add to Calendar"" button or link is now visible."
+conditional,"If a user tries to make a payment with an expired credit card, display a ""Card has expired"" error.","Navigate to a payment screen.
+
+Enter the details of a credit card with a past expiration date.
+
+Attempt to submit the payment.
+
+Verify an error message ""Card has expired"" is displayed."
+conditional,"When scrolling to the bottom of a list, automatically load more items (infinite scroll).","Navigate to a long, scrollable list (e.g., news feed, product list).
+
+Scroll down to the last visible item in the list.
+
+Verify a loading indicator appears briefly and then new items are appended to the bottom of the list."
+conditional,"Unless the user has cleared their cache, previously viewed images should load instantly from local storage.","Navigate to a screen with many images and scroll through them to ensure they are loaded.
+
+Close and relaunch the app (without clearing cache).
+
+Navigate back to the same image-heavy screen.
+
+Verify the images appear instantly without any network loading indicators."
+passive,The application is launched.,Launch the application.
+passive,The splash screen is seen.,Verify the splash screen is displayed.
+passive,The login screen is displayed.,Verify the login screen is displayed.
+passive,"The username field is populated with ""testuser"".","Enter ""testuser"" into the username field."
+passive,"The password field is filled with ""password123"".","Enter ""password123"" into the password field."
+passive,The 'Show Password' checkbox is ticked.,Tap the 'Show Password' checkbox.
+passive,The password visibility is toggled.,Verify the password visibility toggles.
+passive,"The ""Login"" button is pressed.","Tap the ""Login"" button."
+passive,An error message for invalid credentials is shown.,Verify an error message for invalid credentials is shown.
+passive,"The ""Forgot Password"" link is selected.","Tap the ""Forgot Password"" link."
+passive,The main dashboard is loaded.,Verify the main dashboard loads successfully.
+passive,The hamburger menu is opened.,Open the hamburger menu.
+passive,"The ""Settings"" option is chosen from the navigation drawer.","Select the ""Settings"" option from the navigation drawer."
+passive,A user profile is accessed.,Navigate to a user profile screen.
+passive,The screen is swiped from left to right.,Swipe the screen from left to right.
+passive,A list of items is scrolled to the bottom.,Scroll to the bottom of the list.
+passive,"A ""load more"" spinner is displayed.","Verify a ""load more"" spinner is displayed."
+passive,An item from the list is tapped.,Tap an item from the list.
+passive,The detail view for the selected item is presented.,Verify the detail view for the selected item is presented.
+passive,The back button is used to return to the previous screen.,Tap the back button to return to the previous screen.
+passive,"The ""Create New Account"" form is viewed.","Navigate to the ""Create New Account"" form."
+passive,All required fields are filled out.,Fill out all required fields.
+passive,A date is chosen from a date picker dialog.,Select a date from the date picker dialog.
+passive,The terms and conditions checkbox is marked as checked.,Tap the terms and conditions checkbox to mark it as checked.
+passive,"The ""Submit"" button is clicked.","Tap the ""Submit"" button."
+passive,A confirmation dialog is shown.,Verify a confirmation dialog appears.
+passive,"The ""OK"" button on the dialog is tapped.","Tap the ""OK"" button on the dialog."
+passive,Inputted data is validated by the system.,Verify the system validates the inputted data.
+passive,"A ""Registration Successful"" message is displayed.","Verify a ""Registration Successful"" message is displayed."
+passive,An email confirmation is expected to be received.,Check for the receipt of an email confirmation.
+passive,The device is rotated to landscape mode.,Rotate the device to landscape mode.
+passive,The user interface is expected to adapt without crashing.,Verify the user interface adapts to landscape mode without crashing.
+passive,The application is sent to the background.,"Send the application to the background (e.g., by pressing the home button)."
+passive,The application is reopened from the recent apps list.,Reopen the application from the recent apps list.
+passive,The previous state of the app is restored.,Verify the previous state of the app is restored.
+passive,The network connection is disabled.,Disable the device's network connection (Wi-Fi and mobile data).
+passive,An offline status banner is made visible.,Verify an offline status banner becomes visible.
+passive,The network connection is re-enabled.,Re-enable the network connection.
+passive,The app is put into split-screen mode.,Put the app into split-screen mode.
+passive,The app's cache is cleared from the device settings.,Clear the app's cache from the device's system settings.
+passive,"A search is initiated with the keyword ""Android"".","Initiate a search with the keyword ""Android""."
+passive,Search results are displayed on the screen.,Verify search results are displayed on the screen.
+passive,A filter is applied to the search results.,Apply a filter to the search results.
+passive,A product is added to the shopping cart.,Add a product to the shopping cart.
+passive,The quantity of the item in the cart is increased.,Increase the quantity of the item in the cart.
+passive,The checkout process is started.,Start the checkout process.
+passive,A push notification is received while the app is in the background.,Trigger a push notification to the device.
+passive,The notification is tapped.,Tap the received push notification.
+passive,The app is opened to the relevant content screen.,Verify the app opens to the relevant content screen.
+passive,The dark mode theme is enabled from the settings menu.,Enable the dark mode theme from the settings menu.
+listing,"Verify call functionality:
+1. First, try to initiate a call from the contact list, then dial a completely new number that isn't saved, after that, find a number in the recent calls log and call it, then use the quick-dial widget on the home screen to make a call, and finally, connect to a Bluetooth device like a car or headphones and make sure you can start a call through it.","Initiate a call:
+- From the contact list
+- By dialing a new number
+- From the recent calls log
+- Using a quick-dial widget
+- Via a Bluetooth-connected device"
+listing,"Test all messaging functions at once:
+The user must be able to send a text message that contains only text, and also one that includes emojis. Then, the user should try sending a message with an image attached and another one with a video attached. Finally, check if it's possible to send a single message to a group of multiple recipients.","Send a text message:
+- With only text
+- With emojis
+- With an attached image
+- With an attached video
+- To multiple recipients"
+listing,"Check Wi-Fi connection scenarios:
+1. Connect to an open network.
+2. Connect to a WPA2-secured network.
+3. Connect to an older WEP-secured network.
+4. The tester needs to verify the connection to a hidden SSID network and also what happens when connecting to a network that has no internet access.","Connect to a Wi-Fi network:
+- Open network
+- WPA2-secured network
+- WEP-secured network
+- Hidden SSID network
+- Network with no internet access"
+listing,"Giant step for all Bluetooth pairing:
+The user should attempt to pair the Android device with a series of Bluetooth peripherals. This includes pairing with headphones, then with a portable speaker, then with a car's infotainment system, followed by pairing with another smartphone, and lastly, pairing with a wearable fitness tracker to ensure all types of connections work as expected.","Pair with a Bluetooth device:
+- Headphones
+- A speaker
+- A car's infotainment system
+- Another smartphone
+- A wearable fitness tracker"
+listing,"Test photo capturing:
+1. Take a picture with the rear camera.
+2. Switch to the front-facing camera and take a selfie.
+3. Take another picture with the flash turned on.
+4. Also, test taking a photo in panoramic mode and by using the timer function.","Capture a photo:
+- Using the rear camera
+- Using the front-facing camera
+- With the flash enabled
+- In panoramic mode
+- Using the timer function"
+listing,"Verify all video recording options:
+Go to the camera app and start recording a video at 720p, then stop and record another one at 1080p, then another at 4K. After that, the user must check the slow-motion recording mode and also verify that the flashlight can be turned on while a video is being recorded.","Record a video:
+- At 720p resolution
+- At 1080p resolution
+- At 4K resolution
+- In slow-motion mode
+- With the flashlight on"
+listing,"App installation test matrix:
+1. Install an app from the Google Play Store over Wi-Fi.
+2. Install an app using an APK file while on a mobile data connection.
+3. The final test is to attempt an installation when the device has insufficient storage and check the error message.","Install an application:
+- From the Google Play Store
+- From an APK file
+- While on a Wi-Fi connection
+- While on a mobile data connection
+- With insufficient storage"
+listing,"Login process validation:
+The QA analyst needs to test the entire login flow by first logging in with a correct username and password, then trying with an incorrect password to see the error. After that, they should try to log in using a social media account like Google or Facebook. It is also necessary to test the login with two-factor authentication enabled and, finally, to attempt a login right after a password reset has been performed.","Log into an account:
+- With a valid username and password
+- With an incorrect password
+- Using a social media account (e.g., Google, Facebook)
+- With two-factor authentication
+- After a password reset"
+listing,"Check the sharing feature:
+1. Find an image and share it to a social media app.
+2. Find a URL and share it to a messaging app.
+3. Find a file and share it to a cloud storage service.
+4. Find a contact and share it via email.
+5. Finally, find a video and attempt to share it on a video-sharing platform.","Share content from an app:
+- An image to a social media app
+- A URL to a messaging app
+- A file to a cloud storage service
+- A contact via email
+- A video to a video-sharing platform"
+listing,"All notification interactions:
+When a notification appears, the user must test all possible interactions: tapping it to open the app, dismissing it by swiping it away, expanding it if it's a rich notification, trying to use the direct reply feature from the notification shade, and also snoozing the notification if the option is available.","Interact with a notification:
+- Tapping to open the app
+- Dismissing the notification
+- Expanding a rich notification
+- Replying directly from the notification
+- Snoozing the notification"
+listing,"Test screen rotation:
+1. Rotate the screen from portrait to landscape.
+2. Rotate it back from landscape to portrait.
+3. Ensure this works when auto-rotate is enabled and that it doesn't work when auto-rotate is disabled.
+4. Also, perform the rotation during an active video call to check for glitches.","Change the screen orientation:
+- From portrait to landscape
+- From landscape to portrait
+- With auto-rotate enabled
+- With auto-rotate disabled
+- During an ongoing video call"
+listing,"Verify all methods of text entry:
+The tester needs to enter text into an input field by first using the default on-screen keyboard, then installing and using a third-party keyboard. After that, they must test the voice-to-text functionality, followed by pasting text from the clipboard, and finally, using the autocomplete suggestions to fill in the field.","Enter text into a field:
+- Using the default on-screen keyboard
+- Using a third-party keyboard
+- Using voice-to-text
+- Pasting text from the clipboard
+- Using autocomplete suggestions"
+listing,"Check navigation startup:
+1. Enter a specific address and start navigation.
+2. Start navigation to a saved location like ""Home"".
+3. Then, get driving directions, walking directions, and public transit directions to make sure all modes are working.","Start navigation in a maps application:
+- To a specific address
+- To a saved location (e.g., ""Home"")
+- For driving directions
+- For walking directions
+- For public transit directions"
+listing,"Test setting different alarms:
+Go to the clock app and set a new alarm for a specific time with a custom ringtone, vibration enabled, and a label. Then, create another alarm that is set to repeat on multiple days of the week.","Set an alarm:
+- For a specific time
+- As a repeating alarm
+- With a custom ringtone
+- With vibration enabled
+- With a label"
+listing,"Comprehensive browser loading test:
+The user must test loading a webpage in the browser by directly entering a URL in the address bar, then by searching for a term in the search engine, then by loading a page from a saved bookmark, then by opening a link in a new tab, and finally by opening a page in incognito mode to check for proper functionality.","Load a webpage:
+- By entering a URL
+- By searching for a term
+- From a bookmark
+- In a new tab
+- In incognito mode"
+listing,"Check file download process:
+1. Download a PDF.
+2. Download an image.
+3. Download a large video file while connected to Wi-Fi.
+4. Download a small file while on mobile data.
+5. Also, ensure a download can continue while the app is running in the background.","Download a file:
+- A PDF document
+- An image file
+- A large video file over Wi-Fi
+- A small file over mobile data
+- While the app is in the background"
+listing,"Verify the entire in-app purchase and refund flow:
+The user must go through the process of making an in-app purchase for a one-time item using a valid payment method, then try to purchase a subscription. They must also attempt a purchase with an expired credit card to see the error, and after a successful purchase, go through the process of requesting a refund.","Make an in-app purchase:
+- For a one-time item
+- For a subscription
+- With a valid payment method
+- With an expired credit card
+- And then request a refund"
+listing,"Test user profile update functionality:
+1. Go to the profile screen and try to change the profile picture.
+2. Then, update the display name.
+3. Then, change the email address associated with the account.
+4. After that, update the password and also add a phone number to the profile.","Update a user profile:
+- Change the profile picture
+- Update the display name
+- Change the associated email address
+- Update the password
+- Add a phone number"
+listing,"Validate the in-app search feature:
+The analyst must test the search functionality by first searching with a single keyword, then with multiple keywords. Following that, a search should be performed using a filter. The next step is to search for an item that does not exist to check the ""no results"" message, and finally, perform a search that includes special characters.","Perform a search within an app:
+- With a single keyword
+- With multiple keywords
+- Using a filter
+- For a non-existent item
+- With special characters in the query"
+listing,"Audio playback test scenarios:
+1. Play an audio file that is saved on the device's local storage through the phone's speaker.
+2. Then, stream an audio file from a URL.
+3. Ensure the audio continues to play while the screen is off.
+4. Also, verify that the audio plays correctly through a pair of connected Bluetooth headphones.","Play an audio file:
+- From local storage
+- Streamed from a URL
+- While the screen is off
+- Through the phone's speaker
+- Through connected Bluetooth headphones"
+listing,"Giant step for creating contacts:
+Verify that a user can create a new contact with just a name and phone number, and also create a more detailed contact with an email and physical address. The user must also be able to create contacts by importing them from the SIM card, by assigning a custom ringtone during creation, and by saving a number directly from the recent calls log.","Create a new contact:
+- With only a name and phone number
+- With an email address and physical address
+- By importing from a SIM card
+- With a custom ringtone
+- By saving a number from the recent calls log"
+listing,"Test creating calendar events:
+1. Create an all-day event.
+2. Create an event with a specific start and end time.
+3. Create an event and invite attendees.
+4. Create an event and add a location.
+5. Finally, create an event that has a recurring schedule.","Create a calendar event:
+- As an all-day event
+- With a specific start and end time
+- With invited attendees
+- With a location
+- With a recurring schedule"
+listing,"Verify permission request handling and management:
+The user needs to test the app's permission requests by first granting access to the camera, then denying access to contacts. They should also test the ""grant access only while the app is in use"" and ""grant once"" options. Finally, they must go into the system settings and revoke a previously granted permission to ensure the app handles it correctly.","Respond to a permission request:
+- Grant access to the camera
+- Deny access to contacts
+- Grant access only while the app is in use
+- Grant access once
+- Revoke a previously granted permission from settings"
+listing,"Biometric authentication flow:
+1. Authenticate with a valid, registered fingerprint.
+2. Attempt to authenticate with an unregistered fingerprint.
+3. Authenticate using face unlock in good lighting and then again in low lighting.
+4. Finally, check the behavior after multiple failed authentication attempts.","Authenticate using biometrics:
+- With a registered fingerprint
+- With an unregistered fingerprint
+- Using face unlock in good lighting
+- Using face unlock in low lighting
+- After multiple failed attempts"
+listing,"Combined test for data synchronization:
+The analyst should test the data sync process by triggering it manually from the app's settings, and also by observing if it syncs automatically on app launch. This should be tested over both Wi-Fi and mobile data connections. A final test should be performed with background data restricted in the Android settings to see how the app behaves.","Trigger a data sync:
+- Manually from the app's settings
+- Automatically upon app launch
+- Over a Wi-Fi connection
+- Over a mobile data connection
+- With background data restricted"
+listing,"Test all widget actions:
+1. Place the widget on the home screen.
+2. Tap a button on it.
+3. Refresh its content.
+4. Resize it to be bigger and smaller.
+5. Finally, remove the widget from the home screen.","Interact with a home screen widget:
+- Tapping a button on the widget
+- Refreshing the widget's content
+- Resizing the widget
+- Placing the widget on the home screen
+- Removing the widget from the home screen"
+listing,"Verify font size changes and readability:
+The user must go into the settings and change the font size to the smallest setting, then to the largest setting, and then back to the default. During these changes, they need to observe how the text wraps and verify that all text on the screen remains legible without being cut off.","Change the application's font size:
+- To the smallest setting
+- To the default setting
+- To the largest setting
+- And observe text wrapping
+- And verify all text is still legible"
+listing,"Dark mode theme switching test:
+1. The user needs to switch the theme from light to dark and back to light.
+2. They should also test the setting that makes the app follow the system's theme.
+3. During this process, it's important to check all screens for any unreadable text or UI elements that have not adapted correctly to the theme change.","Switch the app's theme:
+- From light mode to dark mode
+- From dark mode to light mode
+- To follow the system's theme setting
+- And check for any unreadable text
+- And verify all UI elements have adapted"
+listing,"Comprehensive form submission test:
+The user needs to test submitting a form in various states: first, with all required fields filled in correctly, then with some required fields left blank to check for validation errors. They should also try submitting with invalid data, like a bad email format. It's also required to test what happens when the back button is pressed after filling the form and to test submission over an unstable internet connection.","Submit a form:
+- With all required fields filled correctly
+- With some required fields left blank
+- With invalid data in a field (e.g., incorrect email format)
+- And then press the back button
+- With an unstable internet connection"
+listing,"Check all filtering and sorting combinations:
+1. Sort a list by date (newest first) and then by name (A-Z).
+2. Then, filter the list by a specific category.
+3. After that, apply multiple filters simultaneously to see if they work together.
+4. Finally, clear all applied filters and sorts to return to the default view.","Filter or sort a list of content:
+- Sort by date (newest first)
+- Sort by name (A-Z)
+- Filter by a specific category
+- Apply multiple filters at once
+- Clear all applied filters and sorts"
+listing,"Verify the complete logout process and session termination:
+The user must log out of their account from the main menu, confirming the action in the popup dialog. This should be attempted while the device is offline. After logging out, verify that the app returns to the login screen and then try to use a feature that requires a logged-in user to ensure access is denied.","Log out of an account:
+- From the main menu
+- And confirm the action in a dialog box
+- While offline
+- And verify the user is returned to the login screen
+- And then attempt to access a feature that requires login"
+listing,"Test in-app language switching and UI validation:
+1. Go to the settings and change the app language from English to Spanish.
+2. Then, change it to a right-to-left language like Arabic.
+3. During these changes, the tester must verify that all text is translated correctly and that there are no UI layout issues, like overlapping text.
+4. Finally, switch the language back to the original setting.","Change the in-app language:
+- From English to Spanish
+- From a left-to-right language to a right-to-left language (e.g., Arabic)
+- And verify all text is translated
+- And check for any UI layout issues
+- And then revert to the original language"
+listing,"Check map zooming functionality:
+The user needs to test all zooming actions on a map: pinching to zoom in on a location and zooming out to see a wider area. They must test zooming in to the maximum possible level and zooming out to the minimum level. They also need to check if double-tapping to zoom in works correctly.","Pinch and zoom on a map:
+- Zoom in on a specific location
+- Zoom out to see a wider area
+- Zoom in to the maximum level
+- Zoom out to the minimum level
+- Perform a quick double-tap to zoom in"
+listing,"Test all interactions with an image slider:
+1. For an image carousel, the user must swipe to see the next and previous images.
+2. They should also tap on the indicator dots to navigate between images.
+3. They need to observe the auto-scrolling functionality.
+4. Finally, they should tap on an image inside the carousel to see if it performs an action.","Interact with an image carousel:
+- Swipe to the next image
+- Swipe to the previous image
+- Tap on the indicator dots to navigate
+- Let it auto-scroll
+- Tap on an image in the carousel"
+listing,"Full application update and verification process:
+The user must update the application from the Google Play Store. After the update is complete, they need to open the app and check if a ""What's New"" screen appears. It's critical to verify that all their previous user data is retained. They also need to test a new feature that was mentioned in the update notes and perform an update while the app is running in the background.","Update the application:
+- From the Google Play Store
+- And check for a ""What's New"" screen
+- And verify user data is retained
+- And test a new feature mentioned in the update notes
+- With the app running in the background during the update"
+listing,"Test offline capabilities and synchronization:
+1. Enable airplane mode.
+2. Open the app and try to access content that was cached previously.
+3. Try to use a feature that needs internet and check for the error message.
+4. Create some new content (like a note or a post).
+5. Then, disable airplane mode and verify that the new content gets synced.
+6. Also, check if an ""You are offline"" notification appears.","Use the app in offline mode:
+- Access previously cached content
+- Attempt to access a feature that requires an internet connection
+- Create new content to be synced later
+- And then go online to verify the sync
+- Receive a notification that the app is offline"
+listing,"Verify scanning different types of QR codes:
+The analyst must test the QR code scanning feature by scanning a valid URL QR code, a QR code containing Wi-Fi credentials, and a QR code with just plain text. They must also test the system's response to an invalid or unreadable QR code and attempt to scan a code in low-light conditions to check the camera's performance.","Scan a QR code:
+- A valid URL QR code
+- A QR code for Wi-Fi credentials
+- A QR code containing plain text
+- An invalid or unreadable QR code
+- In low-light conditions"
+listing,"Test voice command recognition:
+1. Use a voice command to start a search.
+2. Use a voice command to begin navigation.
+3. Use a voice command to compose a message.
+4. Perform these tests with a clear voice and then again with background noise to check for accuracy.","Use a voice command within the app:
+- To initiate a search
+- To start navigation
+- To compose a message
+- With a clear and audible command
+- With background noise present"
+listing,"Comprehensive multi-window mode test:
+Put the app into multi-window (split-screen) mode alongside another application. While in this mode, resize the app's window, try to drag and drop content between the two apps, switch the app back to full-screen mode, and check for any issues while a video is playing in the app's window.","Use the app in multi-window (split-screen) mode:
+- With another application
+- And resize the app's window
+- And drag and drop content between the apps
+- And switch to full-screen mode
+- While playing a video in the app"
+listing,"Check deletion of various content types:
+1. Go to the gallery and delete a single photo, making sure to confirm the deletion in the dialog.
+2. Go to the messaging section and delete an entire conversation thread.
+3. Go to a list of saved items and delete one of them.
+4. After each deletion, verify that the content has been permanently removed.","Delete user-generated content:
+- A single photo from a gallery
+- A conversation thread in a messaging app
+- A saved item from a list
+- And confirm the deletion in a dialog
+- And then check if the content is truly gone"
+listing,"Verify all text selection context menu actions:
+The user must select some text within the app. From the context menu that appears, they need to test the copy action, the share action, and the web search action. If the text is in an input field, they must also test the cut action. Finally, they should try the ""Select all"" option.","Select text in a text view:
+- And copy it to the clipboard
+- And share it with another app
+- And perform a web search for the selected text
+- And cut the text from an input field
+- Select all text"
+listing,"Test push notification configuration:
+1. Go to the app's notification settings and disable all notifications.
+2. Then, enable them again but disable notifications for a specific category.
+3. Change the notification sound.
+4. Enable the app's specific ""do not disturb"" mode.
+5. After each change, trigger a notification to verify the new settings have taken effect.","Change push notification settings:
+- Disable all notifications
+- Disable notifications for a specific category
+- Change the notification sound
+- Enable the ""do not disturb"" mode for the app
+- And verify the changes take effect"
+listing,"Verify clearing app cache and data from settings:
+Go to the Android system settings for the application. First, use the ""Clear cache"" button and then relaunch the app to observe its state. Then, go back to the settings and use the ""Clear data"" button, and relaunch the app again to observe that it behaves like a fresh install.","Manage the app's cache and data:
+- Clear the app's cache
+- Clear the app's data
+- And observe the app's state after clearing the cache
+- And observe the app's state after clearing the data (should be like a fresh install)
+- From the Android system settings"
+listing,"Check all links in the Help section:
+1. Navigate to the help and support area of the app.
+2. The user needs to open the FAQ page, then find and navigate to the ""Contact Us"" form.
+3. They should also try to initiate a chat with a support agent if available.
+4. It's also important to find the app's version number and access the terms of service page from this section.","Access the help and support section:
+- Open the FAQ page
+- Navigate to the ""Contact Us"" form
+- Initiate a chat with a support agent
+- Find the app's version number
+- Access the terms of service"
+listing,"Combined test for video player controls:
+When a video is playing, the user must test all the controls. This includes playing and pausing the video, using the seek bar to jump to a specific point in the video, changing the playback speed to be faster or slower, entering and exiting full-screen mode, and adjusting the volume using the on-screen controls.","Use video playback controls:
+- Play and pause the video
+- Seek to a specific point in the video
+- Change the playback speed
+- Enter and exit full-screen mode
+- Adjust the volume"
+listing,"Test all custom app gestures:
+1. Find a photo and double-tap it to see if it gets liked.
+2. Go to a feed and swipe down to see if it refreshes the content.
+3. Find a list item and long-press it to open the context menu.
+4. Find an image and pinch to zoom in on it.
+5. Find a card-based UI element and swipe to dismiss it.","Perform a custom in-app gesture:
+- Double-tap to like a photo
+- Swipe down to refresh content
+- Long-press on an item to open a context menu
+- Pinch to zoom on an image
+- Swipe to dismiss a card"
+listing,"Verify error messages and recovery:
+The tester must try to trigger an error state in the app. This can be done by entering invalid data into a form, losing internet connectivity while the app is performing an action, or trying to do something without the required permissions. For each case, they must verify that a user-friendly error message is shown and that it's possible to recover from the error state.","Trigger an error state:
+- By entering invalid data
+- By losing internet connectivity during an operation
+- By attempting an action with insufficient permissions
+- And verify a user-friendly error message is displayed
+- And then successfully recover from the error"
+listing,"Full test of the new user onboarding process:
+For a new user, go through the entire onboarding flow, completing all the steps. Then, uninstall and reinstall the app and go through the flow again, but this time skip any optional steps. The user should also test the back button to go to a previous step. Another test involves closing the app in the middle of the onboarding. Finally, after completing it once, verify that the onboarding screens are not shown again on subsequent app launches.","Go through the app's onboarding flow:
+- And complete all the steps
+- And skip the optional steps
+- And go back to a previous step
+- And close the app during the onboarding
+- And verify the onboarding is not shown on subsequent app launches"
+listing,"Test the data export feature:
+1. Go to the settings and find the data export feature.
+2. Try to export the data as a CSV file to local storage.
+3. Then, try to export it as a JSON file to a cloud storage service.
+4. After each export, open the file and verify that the data integrity is maintained and the format is correct.","Export user data:
+- As a CSV file
+- As a JSON file
+- To local storage
+- To a cloud storage service
+- And verify the integrity of the exported data"
+listing,"Full test of the new user onboarding process:
+For a new user, go through the entire onboarding flow, completing all the steps. Then, uninstall and reinstall the app and go through the flow again, but this time skip any optional steps. The user should also test the back button to go to a previous step. Another test involves closing the app in the middle of the onboarding. Finally, after completing it once, verify that the onboarding screens are not shown again on subsequent app launches.","Go through the app's onboarding flow:
+- And complete all the steps
+- And skip the optional steps
+- And go back to a previous step
+- And close the app during the onboarding
+- And verify the onboarding is not shown on subsequent app launches"
