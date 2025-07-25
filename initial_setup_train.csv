@@ -1,0 +1,131 @@
+component,incorrect,correct
+initial_setup,"1. The Gmail application should be running.
+2. I need to be logged into the app with the ""qa.test.user@gmail.com"" test account.","1. Launch the Gmail app.
+2. Log in with the account ""qa.test.user@gmail.com""."
+initial_setup,"1. First, make sure the device's Wi-Fi is turned on.
+2. Then, get it conneted to our test network, which is ""QA_Test_Network_5GHz"".
+3. Open up Chrome.","1. Enable Wi-Fi.
+2. Connect to the ""QA_Test_Network_5GHz"" network.
+3. Launch the Google Chrome app."
+initial_setup,"The phone needs to be in airplane mode so there's no connection.
+Start the Spotify app to see how it behaves.","1. Enable Airplane mode.
+2. Launch the Spotify app."
+initial_setup,"Go to the Play Store and perform an installation of the TikTok app.
+Just accept all the permissions that pop up after installing.","1. Install the ""TikTok"" app from the Google Play Store.
+2. Grant all requested app permissions."
+initial_setup,"Go into the main phone settings menu.
+Find the area for Display.
+The brightness slider should be positioned at the halfway point (50%).",1. Set screen brightness to 50%.
+initial_setup,"1. Start up WhatsApp from the home screen.
+2. Go into the existing conversation thread with ""John Doe"".","1. Launch the WhatsApp app.
+2. Open the chat with ""John Doe""."
+initial_setup,"1. Turn the phone's Bluetooth on.
+2. The phone should be already paired up with the ""JBL_Charge_5"" speaker.","1. Enable Bluetooth.
+2. Pair with the device ""JBL_Charge_5""."
+initial_setup,"For the Facebook application, all of its stored data must be wiped first and then you can open it.","1. Clear data for the ""Facebook"" app.
+2. Launch the Facebook app."
+initial_setup,"Turn the phone sideways so the screen is in landscape view.
+Open up YouTube and then find the video called ""Official Android Guide"" and get it playing.","1. Rotate the device to landscape mode.
+2. Launch the YouTube app.
+3. Play the video ""Official Android Guide""."
+initial_setup,The state of the Amazon Shopping app should be logged out.,"1. Log out from the ""Amazon Shopping"" app."
+initial_setup,"A new contact, ""Jane Smith,"" with the number ""987-654-3210"" is already on the phone.
+Open the address book app.","1. Add a new contact ""Jane Smith"" with the phone number ""92991276544"".
+2. Launch the Contacts app."
+initial_setup,"1. The phone is currently in ""Do Not Disturb"" so no alerts come through.
+2. Open Slack.","1. Enable ""Do Not Disturb"" mode.
+2. Launch the Slack app."
+initial_setup,1. The X app should not be present on the device.,"1. Uninstall the ""X"" app."
+initial_setup,"1. In Google Maps, after you search for the ""Statue of Liberty,"" have the turn-by-turn navigation running.","1. Open the Google Maps app.
+2. Search for the location ""Statue of Liberty"".
+3. Start navigation to the selected location."
+initial_setup,"The phone's system language is configured to Spanish for Spain.
+Now, check the Google News app.","1. Set the device language to ""Spanish (Spain)"".
+2. Launch the Google News app."
+initial_setup,Plug the phone into a computer with a USB-C cable and make sure file transfer (MTP) is selected.,"1. Connect a USB-C cable to the device.
+2. Enable file transfer mode (MTP)."
+initial_setup,"The media volume is all the way down to zero. In Instagram, go to Reels and play something.","1. Mute media volume.
+2. Launch the Instagram app.
+3. Play a video from the Reels tab."
+initial_setup,"1. In the phone's settings, go and make sure Snapchat is not allowed to use the camera.
+2. Now open Snapchat.","1. Revoke camera permission for the ""Snapchat"" app.
+2. Launch the Snapchat app."
+initial_setup,"1. The file ""sample_document.pdf"" has already been downloaded.
+2. Go to the ""Files by Google"" app to find it.","1. Download the file ""sample_document.pdf"".
+2. Open the ""Files by Google"" app."
+initial_setup,"1. An event called ""QA Sync Meeting"" already exists in the user's calendar.
+2. Open up Google Calendar.","1. Create a new calendar event titled ""QA Sync Meeting"".
+2. Open the Google Calendar app."
+initial_setup,"The screen timeout is set really low, to 15s, and the device has been locked and then unlocked with a PIN code.","1. Set the screen timeout to 15 seconds.
+2. Lock the device screen.
+3. Unlock the device using a PIN."
+initial_setup,"Turn on the power saving / battery saver feature.
+Run the game ""Subway Surfers"".","1. Enable ""Battery Saver"" mode.
+2. Launch the ""Subway Surfers"" game app."
+initial_setup,"1. The phone is using the dark theme.
+2. Open the Play Store.","1. Switch the system to ""Dark theme"".
+2. Launch the Google Play Store app."
+initial_setup,1. The notification panel should be completely empty.,1. Dismiss all notifications from the notification shade.
+initial_setup,"1. User is already logged into LinkedIn and is on the ""My Network"" screen.","1. Log in to the ""LinkedIn"" app.
+2. Navigate to ""My Network"" tab."
+initial_setup,"1. Make sure the GPS and location setting is off.
+2. Then, start the Uber app.","1. Disable location services.
+2. Open the Uber app."
+initial_setup,1. The system font size is set to the maximum possible. Go to the texting app.,"1. Increase the font size to the largest.
+2. Open the Messages app."
+initial_setup,"Inside Google Photos, a new album called ""Test Album"" has been created and it contains three random pictures.","1. Launch the Google Photos app.
+2. Select three photos from the camera roll.
+3. Create a new album named ""Test Album""."
+initial_setup,Make sure nothing is connected via Bluetooth.,1. Disconnect all paired Bluetooth devices.
+initial_setup,"You need to clear out the temporary cache for Pinterest first.
+Then, run the app.","1. Clear the cache for the ""Pinterest"" app.
+2. Launch the Pinterest app."
+initial_setup,"An email with the subject ""Automated Test Email"" was already sent to ""recipient@example.com"", and you are now looking at the Sent items folder in Outlook.","1. Send an email with the subject ""Automated Test Email"" to ""recipient@example.com"".
+2. Navigate to the ""Sent"" folder in the Outlook app."
+initial_setup,Take a picture of the screen and then tap on the notification to view it.,"1. Capture a screenshot of the home screen.
+2. Open the screenshot from the notification tray."
+initial_setup,An alarm is active and set to go off in 2 minutes. The user is looking at the Clock app.,"1. Set an alarm for two minutes from the current time.
+2. Open the Clock app."
+initial_setup,"1. The phone is currently being used under the ""Guest"" profile. Open settings.","1. Switch to the ""Guest"" user profile.
+2. Launch the Settings app."
+initial_setup,"1. The phone is in airplane mode, but Wi-Fi has been turned back on and is now connected to ""Public_Free_WiFi"".","1. Enable Airplane mode.
+2. Enable Wi-Fi.
+3. Connect to the ""Public_Free_WiFi"" network."
+initial_setup,"1. The file named ""test_report.xlsx"" should already be uploaded to the user's Google Drive account.","1. Launch the Google Drive app.
+2. Upload the file ""test_report.xlsx"" from local storage."
+initial_setup,"A screen recording was just made of the user opening the calculator and doing ""125 * 8"".","1. Start a native screen recording.
+2. Open the Calculator app.
+3. Perform the calculation ""125 * 8"".
+4. Stop the screen recording."
+initial_setup,The background of the phone should be a live wallpaper.,1. Change the home screen wallpaper to a live wallpaper.
+initial_setup,"The ""testuser@gmail.com"" Google account has been deleted from the phone's list of accounts.
+Start YouTube.","1. Remove the Google account ""testuser@gmail.com"" from the device.
+2. Launch the YouTube app."
+initial_setup,1. The user is Browse privately in Chrome and is on the wikipedia.org website.,"1. Open an incognito tab in the Google Chrome app.
+2. Navigate to the URL ""www.wikipedia.org""."
+initial_setup,"1. The screen is split, with Google Docs on top and Slack on the bottom.","1. Activate split-screen mode.
+2. Open the ""Google Docs"" app in the top window.
+3. Open the ""Slack"" app in the bottom window."
+initial_setup,1. There is a new note in Google Keep that has a 3-item checklist inside it.,"1. Create a new note in the Google Keep app.
+2. Add a checklist with three items to the new note."
+initial_setup,"Go to the phone's keypad and type in the code ""*#06#"".","1. Open the Phone app's dialer.
+2. Enter the USSD code ""*#06#""."
+initial_setup,"In Google Translate, the French language pack for offline use has been fully downloaded.","1. Launch the ""Google Translate"" app.
+2. Download the ""French"" offline language pack."
+initial_setup,"1. Make sure the main keyboard is Gboard and that in its settings, haptic feedback is turned on.","1. Set the default on-screen keyboard to ""Gboard"".
+2. Open Gboard settings.
+3. Enable ""Haptic feedback on keypress""."
+initial_setup,"1. A ""Walking"" activity is currently being tracked in the Google Fit application.","1. Start a ""Walking"" workout session in the ""Google Fit"" app."
+initial_setup,Shazam is open and it is listening for a song.,"1. Open the ""Shazam"" app.
+2. Initiate music recognition."
+initial_setup,"1. In the developer options menu, the animation scale for windows has been set to 2x.
+2. Go to the settings app.","1. Enable ""Developer options"".
+2. Change the ""Window animation scale"" to 2x.
+3. Launch the Settings app."
+initial_setup,"The phone is currently mirroring its screen to the ""Living Room TV (Chromecast)"", and a slideshow is playing from Google Photos.","1. Cast the device screen to ""Living Room TV (Chromecast)"".
+2. Open the Google Photos app.
+3. Start a slideshow."
+initial_setup,"1. A working SIM is in the phone, but mobile data is off.
+2. Open the main messaging app.","1. Insert an active SIM card.
+2. Disable mobile data.
+3. Launch the native Messages app."

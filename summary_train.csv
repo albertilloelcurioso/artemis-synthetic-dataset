@@ -1,0 +1,51 @@
+component,incorrect,correct
+summary,Test logging in on the home screen with a correct username and password.,Login - Home Screen - Verify user with valid credentials
+summary,See what happens when a user tries to log in from the home screen using the wrong password.,Login - Home Screen - Verify user with invalid credentials
+summary,"Check if the ""Forgot Password"" link on the home screen takes the user to the right page.","Login - Home Screen - Verify ""Forgot Password"" link redirection"
+summary,User registration with all valid details on the sign-up form.,Registration - Create a new user with valid information
+summary,Attempting to sign up for a new account using an email that's already in the system.,Registration - Attempt to create a user with an existing email
+summary,Verify that the password field on the registration screen enforces the security rules.,Registration - Registration Screen - Verify password strength requirements
+summary,Check the main dashboard after login to make sure all UI components are showing up.,Main Dashboard - Check visibility of all expected UI elements
+summary,The navigation bar at the bottom of the dashboard should work correctly.,Navigation Bar - Verify functionality of the bottom navigation bar
+summary,"On the main dashboard, pull the screen down to see if the content refreshes.",Main Dashboard - Pull to refresh the content feed
+summary,Use the search bar to look for a product with a specific name.,Search - Search Bar - Find a product using a specific keyword
+summary,"After searching, try to filter the results based on price.",Search - Search Results - Filter search results by price
+summary,Sort the items that appear in the search results by their relevance.,Search - Search Results - Sort search results by relevance
+summary,Add an item to the cart from its product detail page.,Product Details - Product Page - Add a product to the shopping cart
+summary,Make sure the product images are displayed correctly on the product page.,Product Details - Product Page - Verify the display of product images
+summary,Check the product page to see if customer reviews are visible.,Product Details - Product Page - Check for the presence of customer reviews
+summary,Go to the shopping cart and change how many of an item you want to buy.,Shopping Cart - Update the quantity of an item
+summary,Take an item out of the shopping cart screen.,Shopping Cart - Cart Screen - Remove an item from the cart
+summary,Try applying a valid coupon code in the shopping cart.,Shopping Cart - Apply a valid discount code
+summary,Go through the checkout and buy something using a working credit card.,Checkout - Complete a purchase with a valid credit card
+summary,Attempt to complete a purchase but use a shipping address that doesn't exist.,Checkout - Attempt a purchase with an invalid shipping address
+summary,"Before paying, verify all the details on the order summary screen are correct.",Checkout - Order Summary Screen - Verify order summary details before payment
+summary,Go to the user profile and edit the personal information fields.,User Profile - Edit user's personal information
+summary,The user should be able to change their password from their profile screen.,User Profile - Profile Screen - Change the account password
+summary,"From the profile, view the details of an order that was previously placed.",User Profile - Order History - View details of a past order
+summary,Go into the settings and turn on the push notifications toggle.,Settings - Enable push notifications
+summary,"In the settings menu, test denying the app access to the phone's location.",Settings - Settings Menu - Disable location services access
+summary,Change the app's display language through the settings.,Language Settings - Change the application language
+summary,Tapping on a push notification should open the application.,Notifications - Open the app from a push notification
+summary,Dismiss an in-app notification and see if it goes away.,Notifications - In-app - Dismiss an in-app notification
+summary,Use the phone's camera to take and upload a new profile picture.,Camera - Capture and upload a profile picture
+summary,Scan a QR code with the camera to see if it brings up a product.,QR Code Scanner - Scan a QR code to view a product
+summary,"When the phone has no internet, check if you can still see content that was downloaded earlier.",Offline Mode - Access previously downloaded content
+summary,"With no Wi-Fi or data, confirm an error message appears for features that need to be online.",Offline Mode - Verify error message for online-only features
+summary,The app should sync user data automatically when it starts up.,Data Sync - Synchronize user data upon app startup
+summary,Verify that data syncs in the background without the user having to do anything.,Data Sync - Background - Verify automatic background data synchronization
+summary,"Upon first install, the app should ask for and grant the necessary permissions.",Permissions - Grant necessary permissions during initial setup
+summary,Go into the phone's settings to deny camera permission and see how the app reacts.,Permissions - Phone Settings - Deny camera permission to observe app behavior
+summary,Check the entire application for consistent branding and colors.,UI/UX - Verify consistent branding and color scheme
+summary,Test all screens to see if the layout looks correct in both portrait and landscape orientations.,UI/UX - All Screens - Test app layout in both portrait and landscape mode
+summary,Measure the time it takes for the app to launch from a closed state.,Performance - Measure the application's cold start time
+summary,"When scrolling through a long list, check if the motion is smooth.",Scrolling - Assess smoothness of scrolling on a long list
+summary,Use the TalkBack accessibility feature to navigate the home screen.,Accessibility - Home Screen - Navigate the Home screen using TalkBack accessibility feature
+summary,"Throughout the app, check if the text and background colors have enough contrast for readability.",Accessibility - Check for sufficient color contrast ratios
+summary,The user should be able to log out of their account from the settings menu.,Logout - Settings Menu - Log out the user from the application
+summary,"In the help section, try to access the Frequently Asked Questions.",Support - Help Section - Access the FAQ section
+summary,"Test the ""Contact Us"" form by submitting a support request.",Support - Contact Us - Submit a support ticket
+summary,Update the app from the Play Store and verify it installs correctly over the old version.,App Update - Play Store - Verify successful installation of an app update
+summary,The app should show a notification inside the app when a new update is available.,App Update - Check for in-app update notification
+summary,"If the server is down, the app should display a friendly error message instead of crashing.",Error Handling - Verify user-friendly error message on API failure
+summary,"When submitting a form, check that validation errors appear for any required fields left blank.",Error Handling - Form - Check for validation messages on empty required fields
