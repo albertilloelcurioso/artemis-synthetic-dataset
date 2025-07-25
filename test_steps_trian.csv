@@ -1,0 +1,275 @@
+category,incorrect_step,correct_step
+listing,"Verify call functionality:
+1. First, try to initiate a call from the contact list, then dial a completely new number that isn't saved, after that, find a number in the recent calls log and call it, then use the quick-dial widget on the home screen to make a call, and finally, connect to a Bluetooth device like a car or headphones and make sure you can start a call through it.","Initiate a call:
+- From the contact list
+- By dialing a new number
+- From the recent calls log
+- Using a quick-dial widget
+- Via a Bluetooth-connected device"
+listing,"Test all messaging functions at once:
+The user must be able to send a text message that contains only text, and also one that includes emojis. Then, the user should try sending a message with an image attached and another one with a video attached. Finally, check if it's possible to send a single message to a group of multiple recipients.","Send a text message:
+- With only text
+- With emojis
+- With an attached image
+- With an attached video
+- To multiple recipients"
+listing,"Check Wi-Fi connection scenarios:
+1. Connect to an open network.
+2. Connect to a WPA2-secured network.
+3. Connect to an older WEP-secured network.
+4. The tester needs to verify the connection to a hidden SSID network and also what happens when connecting to a network that has no internet access.","Connect to a Wi-Fi network:
+- Open network
+- WPA2-secured network
+- WEP-secured network
+- Hidden SSID network
+- Network with no internet access"
+listing,"Giant step for all Bluetooth pairing:
+The user should attempt to pair the Android device with a series of Bluetooth peripherals. This includes pairing with headphones, then with a portable speaker, then with a car's infotainment system, followed by pairing with another smartphone, and lastly, pairing with a wearable fitness tracker to ensure all types of connections work as expected.","Pair with a Bluetooth device:
+- Headphones
+- A speaker
+- A car's infotainment system
+- Another smartphone
+- A wearable fitness tracker"
+listing,"Test photo capturing:
+1. Take a picture with the rear camera.
+2. Switch to the front-facing camera and take a selfie.
+3. Take another picture with the flash turned on.
+4. Also, test taking a photo in panoramic mode and by using the timer function.","Capture a photo:
+- Using the rear camera
+- Using the front-facing camera
+- With the flash enabled
+- In panoramic mode
+- Using the timer function"
+listing,"Verify all video recording options:
+Go to the camera app and start recording a video at 720p, then stop and record another one at 1080p, then another at 4K. After that, the user must check the slow-motion recording mode and also verify that the flashlight can be turned on while a video is being recorded.","Record a video:
+- At 720p resolution
+- At 1080p resolution
+- At 4K resolution
+- In slow-motion mode
+- With the flashlight on"
+listing,"App installation test matrix:
+1. Install an app from the Google Play Store over Wi-Fi.
+2. Install an app using an APK file while on a mobile data connection.
+3. The final test is to attempt an installation when the device has insufficient storage and check the error message.","Install an application:
+- From the Google Play Store
+- From an APK file
+- While on a Wi-Fi connection
+- While on a mobile data connection
+- With insufficient storage"
+listing,"Login process validation:
+The QA analyst needs to test the entire login flow by first logging in with a correct username and password, then trying with an incorrect password to see the error. After that, they should try to log in using a social media account like Google or Facebook. It is also necessary to test the login with two-factor authentication enabled and, finally, to attempt a login right after a password reset has been performed.","Log into an account:
+- With a valid username and password
+- With an incorrect password
+- Using a social media account (e.g., Google, Facebook)
+- With two-factor authentication
+- After a password reset"
+listing,"Check the sharing feature:
+1. Find an image and share it to a social media app.
+2. Find a URL and share it to a messaging app.
+3. Find a file and share it to a cloud storage service.
+4. Find a contact and share it via email.
+5. Finally, find a video and attempt to share it on a video-sharing platform.","Share content from an app:
+- An image to a social media app
+- A URL to a messaging app
+- A file to a cloud storage service
+- A contact via email
+- A video to a video-sharing platform"
+listing,"All notification interactions:
+When a notification appears, the user must test all possible interactions: tapping it to open the app, dismissing it by swiping it away, expanding it if it's a rich notification, trying to use the direct reply feature from the notification shade, and also snoozing the notification if the option is available.","Interact with a notification:
+- Tapping to open the app
+- Dismissing the notification
+- Expanding a rich notification
+- Replying directly from the notification
+- Snoozing the notification"
+listing,"Test screen rotation:
+1. Rotate the screen from portrait to landscape.
+2. Rotate it back from landscape to portrait.
+3. Ensure this works when auto-rotate is enabled and that it doesn't work when auto-rotate is disabled.
+4. Also, perform the rotation during an active video call to check for glitches.","Change the screen orientation:
+- From portrait to landscape
+- From landscape to portrait
+- With auto-rotate enabled
+- With auto-rotate disabled
+- During an ongoing video call"
+listing,"Verify all methods of text entry:
+The tester needs to enter text into an input field by first using the default on-screen keyboard, then installing and using a third-party keyboard. After that, they must test the voice-to-text functionality, followed by pasting text from the clipboard, and finally, using the autocomplete suggestions to fill in the field.","Enter text into a field:
+- Using the default on-screen keyboard
+- Using a third-party keyboard
+- Using voice-to-text
+- Pasting text from the clipboard
+- Using autocomplete suggestions"
+listing,"Check navigation startup:
+1. Enter a specific address and start navigation.
+2. Start navigation to a saved location like ""Home"".
+3. Then, get driving directions, walking directions, and public transit directions to make sure all modes are working.","Start navigation in a maps application:
+- To a specific address
+- To a saved location (e.g., ""Home"")
+- For driving directions
+- For walking directions
+- For public transit directions"
+listing,"Test setting different alarms:
+Go to the clock app and set a new alarm for a specific time with a custom ringtone, vibration enabled, and a label. Then, create another alarm that is set to repeat on multiple days of the week.","Set an alarm:
+- For a specific time
+- As a repeating alarm
+- With a custom ringtone
+- With vibration enabled
+- With a label"
+listing,"Perform all app uninstallation methods:
+1. Uninstall the app from the app drawer.
+2. Go to Settings > Apps and uninstall from there.
+3. Use the Play Store to uninstall.
+4. Try using an ADB command to uninstall.
+5. Check the result using the system app list.","Uninstall the application:
+- From the app drawer
+- From the Settings > Apps section
+- From the Play Store
+- Using an ADB command
+- Verify in the system app list"
+listing,"Complete screenshot tests:
+The tester must take a screenshot using the hardware button combo, then via the quick settings panel. Also test using the Assistant voice command, and finally verify if screenshot works inside a secure app.","Take a screenshot:
+- Using hardware buttons
+- From the quick settings panel
+- Using a voice command
+- Within a secure app"
+listing,"Check sound profile switching:
+1. Switch to silent mode.
+2. Switch to vibrate mode.
+3. Switch to normal mode with sound.
+4. Also test if switching works via volume buttons, quick settings and settings app.","Switch sound profile:
+- To silent mode
+- To vibrate mode
+- To normal (sound) mode
+- Using volume buttons
+- From quick settings and the settings app"
+listing,"Explore app theme settings:
+Try changing the app to dark mode, light mode, and auto based on system settings. Also check if high contrast mode is available and works properly.","Change app theme:
+- To dark mode
+- To light mode
+- To auto/system default
+- To high contrast mode"
+listing,"Check power saving scenarios:
+1. Enable battery saver manually.
+2. Enable it based on schedule.
+3. Let it activate at 15% battery.
+4. Try using extreme power saving mode.","Activate battery saver:
+- Manually
+- On a schedule
+- At 15% battery level
+- In extreme power saving mode"
+listing,"Notification permissions should be tested:
+Allow notifications, block them, allow silently, restrict on lock screen, and test the grouped notifications setting.","Set notification permissions:
+- Allow all notifications
+- Block all notifications
+- Allow silently
+- Restrict on lock screen
+- Enable grouped notifications"
+listing,"Perform biometric unlock validation:
+Try unlocking with fingerprint, then with face recognition. After that, attempt with a wrong fingerprint and unregistered face. Finally, test if fallback to PIN works.","Unlock the device:
+- Using a fingerprint
+- Using face recognition
+- With an invalid fingerprint
+- With an unregistered face
+- With fallback to PIN"
+listing,"Validate network mode toggling:
+Switch to airplane mode, mobile data only, Wi-Fi only, 4G only, and dual SIM data switching.","Change network mode:
+- Enable airplane mode
+- Use mobile data only
+- Use Wi-Fi only
+- Force 4G only
+- Switch data SIM (dual SIM)"
+listing,"All lock screen configurations:
+1. Set pattern lock.
+2. Set PIN.
+3. Set password.
+4. Disable screen lock.
+5. Use smart lock with location and trusted devices.","Configure lock screen:
+- Pattern lock
+- PIN
+- Password
+- No lock
+- Smart lock (location, trusted devices)"
+listing,"Browser bookmark actions:
+The tester needs to create a bookmark, edit it, reorder bookmarks, delete one, and access it via voice command.","Manage bookmarks in browser:
+- Create a new bookmark
+- Edit an existing bookmark
+- Reorder bookmarks
+- Delete a bookmark
+- Access via voice command"
+listing,"Run video playback tests:
+1. Play video from gallery.
+2. Play from streaming service.
+3. Enable subtitles.
+4. Switch audio tracks.
+5. Try playback at 2x speed.","Play a video:
+- From the gallery
+- From a streaming service
+- With subtitles enabled
+- With alternative audio track
+- At 2x playback speed"
+listing,"Multitasking actions:
+Try split-screen mode, pop-up window, switching recent apps, dragging content between apps, and pinning a specific app.","Perform multitasking actions:
+- Use split-screen mode
+- Use pop-up view
+- Switch between recent apps
+- Drag and drop content between apps
+- Pin an app to screen"
+listing,"Device storage management tests:
+1. Clear app cache.
+2. Clear app data.
+3. Delete downloaded files.
+4. Move media to SD card.
+5. Use storage analyzer.","Manage device storage:
+- Clear app cache
+- Clear app data
+- Delete downloaded files
+- Move media to SD card
+- Use storage analyzer"
+listing,"Explore accessibility tools:
+Try screen reader, magnification, color inversion, color correction, and interaction control.","Enable accessibility features:
+- Screen reader
+- Magnification
+- Color inversion
+- Color correction
+- Interaction control"
+listing,"Bluetooth audio tests:
+Pair headphones, test playback controls, check mic during call, stream music, and test automatic reconnection.","Test Bluetooth audio:
+- Pair with headphones
+- Use playback controls
+- Use microphone during calls
+- Stream music
+- Reconnect automatically"
+listing,"Gallery image management:
+The tester must open an image, edit it, delete it, share it, and favorite it.","Manage gallery images:
+- Open an image
+- Edit an image
+- Delete an image
+- Share an image
+- Mark as favorite"
+listing,"Create and manage notes:
+Create a note, edit it, pin it, delete it, and share it via messaging.","Use the notes app:
+- Create a note
+- Edit a note
+- Pin a note
+- Delete a note
+- Share a note"
+listing,"Keyboard settings should be reviewed:
+Change keyboard theme, enable number row, add a language, test voice input, and adjust auto-correct settings.","Configure keyboard settings:
+- Change theme
+- Enable number row
+- Add new language
+- Use voice input
+- Adjust auto-correct"
+listing,"File manager operations:
+Navigate folders, copy files, move files, rename a file, and compress a folder.","Perform file management operations:
+- Navigate folders
+- Copy files
+- Move files
+- Rename files
+- Compress folders"
+listing,"Volume controls test:
+Adjust media volume, alarm volume, call volume, enable silent mode, and use volume panel shortcut.","Adjust volume settings:
+- Media volume
+- Alarm volume
+- Call volume
+- Silent mode
+- Volume panel shortcut"
